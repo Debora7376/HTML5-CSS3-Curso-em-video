@@ -2,73 +2,74 @@
 @font-face {
 	font-family:'FonteLogo';
 	src: url("../_fonts/bubblegum-sans-regular.otf");
- }
- body {
+}
+body {
 	font-family: Arial, sans-serif;
 	background-color: #dddddd;
 	color: rgba (0,0,0,1)
- }
- div#interface {
+}
+div#interface {
 	width: 1200px;
 	background-color: #ffffff;
 	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);  
 	padding: 10px 10px 10px 10px;
 	
- }
- p {
+}
+p {
 	text-align:justify;
 	text-indent:50px;
- }
- a {
+}
+a {
 	color: #606060;
 	text-decoration: none;
- }
- a:hover {
+}
+a:hover {
 	text-decoration: underline;
- }
+}
 
- header#cabecalho img#icone {
+header#cabecalho img#icone {
 	position: absolute;
 	left: 1060px;
-	top: 60px;
- }
- header#cabecalho {
+	top: 50px;
+    width: 130px;
+}
+header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 150px;
 	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 
- }
- header#cabecalho h1 {
+}
+header#cabecalho h1 {
 	font-family: 'FonteLogo', sans-serif;
 	font-size: 30pt;
 	color: #606060;
 	text-shadow: 1px 1px 1px rgba (0,0,0.6);
 	padding: 0px;
 	margin-bottom: 0px;
- }
- header#cabecalho h2 {
+}
+header#cabecalho h2 {
 	font-family: Arial, sans-serif;
 	color: #888888;
 	font-size: 15pt;
 	padding: 0px;
 	margin-top: 0px;
- }
-                        /* Formatação de imagens com legendas */
+}
+ /* Formatação de imagens com legendas */
 
- figure.foto-legenda { 
-     display: inline-block; 
-	 position:relative;
-	 border: 8px solid white; 
-	 width:600px;
-     box-shadow: 1px 1px 4px black;
- }
- figure.foto-legenda img {
+figure.foto-legenda { 
+	display: inline-block; 
+	position:relative;
+	border: 8px solid white; 
+	width:600px;
+	box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img {
 	width: 100%;
     height: 100%; 
- }
+}
 
- figure.foto-legenda figcaption {
+figure.foto-legenda figcaption {
 	opacity:0;
 	position: absolute;
 	top:0px;
@@ -79,125 +80,124 @@
 	padding: 10px;
 	box-sizing: border-box;
 	transition: opacity 1s;
- }
+}
 
- figure.foto-legenda:hover figcaption {
+figure.foto-legenda:hover figcaption {
 	opacity: 1;
- }
+}
 
-                       /* Formatação do menu */
+    /* Formatação do menu */
 
- nav#menu {
+nav#menu {
 	display: block;
- }
+}
 
- nav#menu ul {
+nav#menu ul {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
 	top: -20px;
 	left: 600px;
- }
+}
 
- nav#menu li {
-	 
+nav#menu li {
 	display: inline-block;
 	background-color: #dddddd;
 	padding: 10px;
 	margin: 2px;
-	transition: background-color: 1s;
- }
- nav#menu li:hover {
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
 	background-color: #606060;
- }
+}
 
+nav#menu h1 {
+display: none;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
 
- nav#menu h1 {
-	display: none;
- }
- nav#menu a {
-	 color: #000000;
-	 text-decoration: none;
- }
-
- nav#menu a:hover {
-	 color: #ffffff;
-	 text-decoration: underline;
- }
- section#corpo {
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+section#corpo {
 	display: block;
 	width: 700px;
 	float: left; 
 	border-right: 1px solid #606060;
 	padding-right: 15px;
- }
- article#noticia-principal h2 {
+}
+article#noticia-principal h2 {
 	font-size: 13pt;
 	color: 606060;
 	background-color: #dddddd;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px;
- }
- header#cabecalho-artigo h1 {
+}
+header#cabecalho-artigo h1 {
 	font-family: 'FonteLogo', sans-serif;
 	font-size: 20pt;
 	color: #606060;
 	margin-bottom: 0px;
 	margin-top: 0px;
- }
- .direita{
+}
+.direita{
 	text-align: right;
- }
- header#cabecalho-artigo h2 {
+}
+header#cabecalho-artigo h2 {
 	font-size: 13pt;
 	color: #cecece;
 	background-color: #ffffff;
 	margin: 0px;
 	
- }
- header#cabecalho-artigo h3 {
-	 font-size: 15px;
-	 color: #606060;
-	 
+}
+header#cabecalho-artigo h3 {
+	font-size: 15px;
+	color: #606060;
 	
- }
+	
+}
 
- table#tabelaspec{
+table#tabelaspec{
 	border: 1px solid #606060;	
 	border-spacing: 0px;
 	margin-left: auto;
 	margin-right: auto;
- }
- table#tabelaspec td {
+}
+table#tabelaspec td {
 	border: 1px solid #606060;
 	padding: 10px;
 	text-align: center;
 	vertical-align: middle;
 	
- }
- table#tabelaspec td.ce {
+}
+table#tabelaspec td.ce {
 	color: #ffffff;
 	background-color: #606060;
 	vertical-align: top;
 	font-weight: bold;
- } 
- table#tabelaspec td.cd {
+} 
+table#tabelaspec td.cd {
 	background-color: #cecece;
- }
- table#tabelaspec caption {
+}
+table#tabelaspec caption {
 	color: #888888;
 	font-size: 13pt;
 	font-weight: bolder;
- }
- table#tabelaspec caption span {
+}
+table#tabelaspec caption span {
 	display:block;
 	float:right;
 	color: #000000;
 	font-size: 8pt;
 	margin-top: 10px;
- }
+}
 
- aside#lateral {
+aside#lateral {
 	display: block;
 	width: 450px;
 	float: right;
@@ -205,28 +205,28 @@
 	padding: 10px;
 	margin-top: 10px;
 	box-shadow: 2px 2px 2px rgba(0,0,0,.5) ;
- }
- aside#lateral h1 {
- 	font-family: 'FonteLogo', sans-serif;
- 	font-size: 20pt;
+}
+aside#lateral h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
 	color: #606060;
 	margin-top:0px;
- }
- aside#lateral h2 {
+}
+aside#lateral h2 {
 	background-color: #606060;
 	font-size: 13pt;
 	color: #ffffff;
 	padding: 5px;
 	
- }
- footer#rodape {
+}
+footer#rodape {
 	clear: both;
 	border-top: 1px solid #606060;
- }
+}
 
- footer#rodape p {
+footer#rodape p {
 	text-align: center;
- }
+}
 
 
 
